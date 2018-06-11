@@ -1,0 +1,146 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #FBE7ED;
+}
+.logo{
+	padding: 0;
+}
+.logo img{
+	width: 50%;
+}
+.tab1{
+	width: 100%;
+}
+.tab1 .container{
+	padding: 0;
+}
+.tab1 img{
+	width: 100%;
+}
+#navbar-collapse ul{
+	margin-top: 0px;
+}
+#navbar-collapse ul li.active a{
+	background: #AB497F;
+	color: #fff;
+}
+#navbar-collapse ul li a{
+	color: #AB497F;
+}
+.tab{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.tab-p{
+	width: 20%;
+	margin: 0 auto;
+	font-size: 20px;
+	border: 2px solid #888;
+}
+.tab2 .container{
+	background: #e5a0c2;
+	margin-bottom: 10px;
+}
+.tab3 .container{
+	background: #e5a0c2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tab4 .container{
+	background: #e5a0c2;
+	margin-bottom: 10px;
+}
+.col-md-6{
+	padding: 0;
+}
+.col-md-6 img{
+	width: 100%;
+}
+.tab2-img{
+	float: right;
+}
+.text{
+	width: 44%;
+	margin-top: 100px ;
+	margin-left: 3%;
+	border: 1px solid #fff;
+	padding:10px;
+	line-height: 24px;
+	text-indent: 2em;
+	font-size: 16px;
+	color: #fff;
+}
+footer{
+	background-color: #B44C86;
+	margin-top: 10px;
+	padding: 20px 20px 10px 20px;
+	text-align: center;
+}
+.dibu{
+	border-right:1px solid #fff;
+	padding-top: 10px;
+}
+.dibu ul li{
+	list-style: none;
+	line-height: 26px;
+}
+.dibu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.tete{border-right: 0;}
+.quan1{
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 0;
+}
+@media (max-width: 768px) {
+	.dantu{
+		width: 100%;
+	}
+	.tab-p{
+		width: 40%;
+	}
+	/*dibu*/
+	footer{
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+	.dibu{
+		border-right:none;
+	}
+	.dibu ul li{
+		display: none;
+	}
+	.dibu ul li.oneo{
+		display: block;
+	}
+	.quan1{
+		padding-top: 20px;
+		color: #fff;
+		font-size: 12px;
+		padding-bottom: 0;
+	}
+	.text{
+		width: 98%;
+		margin-top: 0px ;
+		margin-left:1%;
+		border: none;
+		padding:0px 10px 0px 10px;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,151 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #FBE7ED;
+}
+.logo{
+	padding: 0;
+}
+.logo img{
+	width: 50%;
+}
+.dantu img{
+	width: 100%;
+	margin-top: 50px;
+}
+.biaoti{
+	width: 100%;
+}
+.biaoti .biao{
+	text-align: center;
+	color: #A85185;
+}
+.biaoti img{
+	width: 100%;
+}
+#navbar-collapse ul{
+	margin-top: 0px;
+}
+#navbar-collapse ul li.active a{
+	background: #AB497F;
+	color: #fff;
+}
+#navbar-collapse ul li a{
+	color: #AB497F;
+}
+.dan{
+	width: 24%;
+	margin-left: 1%;
+	background: #fff;
+	padding: 0;
+	margin-top: 20px;
+}
+.dan a img{
+	width: 100%;
+}
+.media-body a{
+	text-decoration: none;
+	color: #A85185;
+}
+.media-body a p{
+	width: 96%;
+	margin: 0 auto;
+	color: #A85185;
+	line-height: 60px;
+	font-size: 16px;
+}
+.media-body a p span{
+	float: right;
+}
+.beid{
+	position: relative;
+}
+.ling{
+	position: absolute;
+}
+.ling img{
+	width: 100%;
+}
+.beid2{
+	position: relative;
+}
+.ling2{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.3);
+}
+footer{
+	background-color: #B44C86;
+	margin-top: 10px;
+	padding: 20px 20px 10px 20px;
+	text-align: center;
+}
+.dibu{
+	border-right:1px solid #fff;
+	padding-top: 10px;
+}
+.dibu ul li{
+	list-style: none;
+	line-height: 26px;
+}
+.dibu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.tete{border-right: 0;}
+.quan1{
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 0;
+}
+@media (max-width: 768px) {
+	.dan{
+		width: 49%;
+		margin-left: 2%;
+		margin-top: 10px;
+	}
+	.du{margin-left: 0;}
+	h2.biao{
+		font-size: 20px;
+	}
+	.media-body a p{
+		line-height: 40px;
+		font-size: 14px;
+	}
+	.ling2{
+		height: 40px;
+	}
+	/*dibu*/
+	footer{
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+	.dibu{
+		border-right:none;
+	}
+	.dibu ul li{
+		display: none;
+	}
+	.dibu ul li.oneo{
+		display: block;
+	}
+	.quan1{
+		padding-top: 20px;
+		color: #fff;
+		font-size: 12px;
+		padding-bottom: 0;
+	}
+}

@@ -1,0 +1,160 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #FBE7ED;
+}
+.logo{
+	padding: 0;
+}
+.logo img{
+	width: 50%;
+}
+#navbar-collapse ul{
+	margin-top: 0px;
+}
+#navbar-collapse ul li.active a{
+	background: #AB497F;
+	color: #fff;
+}
+#navbar-collapse ul li a{
+	color: #AB497F;
+}
+.tab2{
+	margin-top: 60px;
+}
+.tab2 .container .col-md-6{
+	margin: 0;
+	padding:6px;
+}
+.tab2 .container .col-md-6 img{
+	width: 100%;
+}
+.mingzi{
+	height: 50px;
+	font-size: 24px;
+	margin: 5px 10px;
+	line-height: 50px;
+	color:  #B44C86;
+}
+.mingzi1{
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color:  #B44C86;
+	margin: 5px 10px;
+}
+.mingzi1 span{
+	float: right;
+}
+.tebie select{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	border: none;
+	background:  #B44C86;
+	color: #fff;
+	padding-left: 10px;
+	border-radius: 4px;
+}
+.popover-hide button{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	border: none;
+	background:  #B44C86;
+	color: #fff;
+	padding-left: 10px;
+}
+.tebie input{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	border: none;
+	background:  #B44C86;
+	color: #fff;
+	border-radius: 4px;
+}
+.tab3 .container{
+	padding: 6px;
+}
+.col-md-12{
+	padding: 0;
+	margin:0;
+}
+.tab3 .container img{
+	width: 100%;
+}
+footer{
+	background-color: #B44C86;
+	margin-top: 10px;
+	padding: 20px 20px 10px 20px;
+	text-align: center;
+}
+.dibu{
+	border-right:1px solid #fff;
+	padding-top: 10px;
+}
+.dibu ul li{
+	list-style: none;
+	line-height: 26px;
+}
+.dibu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.tete{border-right: 0;}
+.quan1{
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 0;
+}
+@media (max-width: 768px) {
+	.tab2{
+		margin-top: 50px;
+		}
+		.mingzi{
+		height: 40px;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	.mingzi1{
+		height: 25px;
+		line-height: 25px;
+		font-size: 16px;
+	}
+	/*dibu*/
+	footer{
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+	.dibu{
+		border-right:none;
+	}
+	.dibu ul li{
+		display: none;
+	}
+	.dibu ul li.oneo{
+		display: block;
+	}
+	.quan1{
+		padding-top: 20px;
+		color: #fff;
+		font-size: 12px;
+		padding-bottom: 0;
+	}
+	.tebie select{
+		padding-left: 5px;
+	}
+}
